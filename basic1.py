@@ -39,6 +39,50 @@
 
 ##############Insert Item ####################
 
-my_list = ["apple", "banana", "cherry"]
-my_list.append("orange")
-print(my_list)
+# my_list = ["apple", "banana", "cherry"]
+# my_list.append("orange")   #append is used for add  value last of arrary
+# print(my_list)
+
+# my_list.insert(1, "lichi") # now lichi will be inserted array no 1
+# print(my_list)
+
+# thislist = ["apple", "banana", "cherry"]
+# tropical = ["mango", "pineapple", "papaya"]
+
+# thislist.extend(tropical)
+# print(thislist)
+
+##########Add elements of a tuple to a list##########
+# thislist = ["apple", "banana", "cherry"]
+# thistuple = ("kiwi", "orange")
+# thislist.extend(thistuple)
+# print(thislist)
+
+###### Remove List ##########
+# thislist = ["apple", "banana", "cherry", "banana", "kiwi"]
+# thislist.remove("banana")
+# print(thislist)
+
+######## Remove Specified Index ##########
+# thislist = ["apple", "banana", "cherry"]
+# thislist.pop(1)
+# print(thislist)
+
+####### if pop method is not specified then it remove last element
+# thislist = ["apple", "banana", "cherry"]
+# thislist.pop()
+# print(thislist) 
+
+
+# ##### the del keyward aslo used for remove specified item ##########
+# thislist = ["apple", "banana", "cherry"]
+# del thislist[0]
+# print(thislist)
+
+# ########## delete the entire list #########
+# thislist = ["apple", "banana", "cherry"]
+# del thislist
+
+thislist = ["apple", "banana", "cherry"]
+thislist.clear()
+print(thislist)
