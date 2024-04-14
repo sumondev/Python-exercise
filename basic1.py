@@ -38,3 +38,7 @@
 
 
 ##############Insert Item ####################
+
+my_list = ["apple", "banana", "cherry"]
+my_list.append("orange")
+print(my_list)
