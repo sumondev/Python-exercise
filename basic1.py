@@ -83,6 +83,19 @@
 # thislist = ["apple", "banana", "cherry"]
 # del thislist
 
+# thislist = ["apple", "banana", "cherry"]
+# thislist.clear()
+# print(thislist)
+
+###### Loop list ######
+
 thislist = ["apple", "banana", "cherry"]
-thislist.clear()
-print(thislist)
+# for x in thislist:
+#     print (x)
+
+# for i in range(len(thislist)):
+#   print(thislist[i])
+i=0
+while i< len(thislist):
+    print(thislist[i])
+    i+=1
