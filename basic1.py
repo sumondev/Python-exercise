@@ -89,7 +89,7 @@
 
 ###### Loop list ######
 
-thislist = ["apple", "banana", "cherry"]
+thislist = ["apple", "banana", "cherry", "lichi"]
 # for x in thislist:
 #     print (x)
 
@@ -99,3 +99,9 @@ i=0
 while i< len(thislist):
     print(thislist[i])
     i+=1
+
+# do:
+# i=0
+# print(thislist[i])
+# i+=1
+# while i< len(thislist)
