@@ -27,5 +27,18 @@ print(this_list[:4]) # it begins from 0 to 4 but inlude only 0 index to 3 index 
 print (this_list[1:]) # it begins from given (1) index to end index value
 
 
-if "orange" in this_list:
-  print("Yes, 'orange' is in the fruits list")
+# if "orange" in this_list:
+#   print("Yes, 'orange' is in the fruits list")
+
+thislist = ["apple", "banana", "cherry"]
+[print(x) for x in thislist]
+
+#################List Comprehension#########
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+
+print(newlist)
