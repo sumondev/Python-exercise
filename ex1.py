@@ -21,46 +21,52 @@
 
 # print(my_list[2],my_list[0]) # is also assign the value by index number
 
-this_list = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-print(this_list[2:5])  #it is used for range 
-print(this_list[:4]) # it begins from 0 to 4 but inlude only 0 index to 3 index value. 
-print (this_list[1:]) # it begins from given (1) index to end index value
+# this_list = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(this_list[2:5])  #it is used for range 
+# print(this_list[:4]) # it begins from 0 to 4 but inlude only 0 index to 3 index value. 
+# print (this_list[1:]) # it begins from given (1) index to end index value
 
 
 # if "orange" in this_list:
 #   print("Yes, 'orange' is in the fruits list")
 
-thislist = ["apple", "banana", "cherry"]
-[print(x) for x in thislist]
+# thislist = ["apple", "banana", "cherry"]
+# [print(x) for x in thislist]
 
 #################List Comprehension#########
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-newlist = []
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# newlist = []
 
-for x in fruits:
-  if "a" in x:
-    newlist.append(x)
-print(newlist)
+# for x in fruits:
+#   if "a" in x:
+#     newlist.append(x)
+# print(newlist)
 
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-newlist = [x for x in fruits if "a" in x]
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# newlist = [x for x in fruits if "a" in x]
 
-print(newlist)
+# print(newlist)
 
-newlist = [x for x in range(10)]
-print(newlist)
-newlist = [x for x in range(10) if x < 5]
+# newlist = [x for x in range(10)]
+# print(newlist)
+# newlist = [x for x in range(10) if x < 5]
 
-print(newlist)
+# print(newlist)
 
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 
-newlist = [x.upper() for x in fruits]
+# newlist = [x.upper() for x in fruits]
 
-print(newlist)
+# print(newlist)
 
-fruits = ["apple", "banana", "cherry", "kiwi", "banana", "mango"]
+# fruits = ["apple", "banana", "cherry", "kiwi", "banana", "mango"]
 
-newlist = [x if x != "banana" else "orange" for x in fruits]
+# newlist = [x if x != "banana" else "orange" for x in fruits]
 
-print(newlist)
+# print(newlist)
+
+############# Sort ############
+
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort()
+print(thislist)
