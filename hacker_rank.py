@@ -74,7 +74,7 @@
 # This means that in the Gregorian calendar, the years 2000 and 2400 are leap years, while 1800, 1900, 2100, 2200, 2300 and 2500 are NOT
 # leap years.
 
-# Task 
+# Task 6
 # You are given the year, and you have to write a function to check if the year is leap or not.
 # Note that you have to complete the function and remaining code is given as template.
 
@@ -101,3 +101,29 @@
 
 # year = int(input())
 # print(is_leap(year))
+
+# task.7
+# The included code stub will read an integer, n, from STDIN. Without using any string methods, try to print the following: 123……..n
+
+# Note that "..." represents the consecutive values in between.
+
+# Example
+# n = 5
+
+# Print the string 12345 .
+
+
+# if __name__ == '__main__':
+#     n = int(input())
+   
+#     for x in range(n):
+#         x+=1
+#         print(x, end="")
+
+       
+#     if __name__ == '__main__':
+#         n = int(input())
+#     y = range (1, n+1)
+#     for x in y:
+#         print(x, end='')
+       
