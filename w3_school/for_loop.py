@@ -34,11 +34,17 @@
     # here 1st n=input number, then it decrese to 0 that;s why write -1, and decase every step -1.
 
 #loop.
-for i in range(1,4):
-    print("\n")
-    for j in range(1,4):
-     print("\n")
-     for k in range(1,4):
-        print(i,j,k)
+# for i in range(1,4):
+#     print("\n")
+#     for j in range(1,4):
+#      print("\n")
+#      for k in range(1,4):
+#         print(i,j,k)
+
+
+#Data Structures  tuples
+x = (10,20,30,40,50)
+for var in x:
+    print("index ", str(x.index(var)) , ":",var)
        
        
