@@ -27,8 +27,18 @@
 
 #Decending Order
 
-n = int(input("Input a number"))
-for a in range(n,-1,-1): 
+# n = int(input("Input a number"))
+# for a in range(n,-1,-1): 
 
-    print (a)
+#     print (a)
     # here 1st n=input number, then it decrese to 0 that;s why write -1, and decase every step -1.
+
+#loop.
+for i in range(1,4):
+    print("\n")
+    for j in range(1,4):
+     print("\n")
+     for k in range(1,4):
+        print(i,j,k)
+       
+       
