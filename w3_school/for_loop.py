@@ -32,4 +32,3 @@ for a in range(n,-1,-1):
 
     print (a)
     # here 1st n=input number, then it decrese to 0 that;s why write -1, and decase every step -1.
-    
