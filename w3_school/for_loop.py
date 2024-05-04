@@ -43,9 +43,9 @@
 
 
 #Data Structures  tuples
-x = (10,20,30,40,50)
-for var in x:
-    print("index ", str(x.index(var)) , ":",var)
+# x = (10,20,30,40,50)
+# for var in x:
+#     print("index ", str(x.index(var)) , ":",var)
        
        
 fruits = ["apple", "banana", "cherry"]
