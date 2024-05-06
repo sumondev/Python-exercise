@@ -9,3 +9,20 @@ print(v1[-1:-5]) # it slicing is also not be executed
 print(v1[-5:-1]) # this slicing also empty because of range is not in order 
 print(v1[-5:1]) # this kind of slicing have empty because of range is over boundary
 #here all are exapmle is string slicing.
+
+#Another Example
+# Define a string
+my_string = "Hello, World!"
+# Extracting a substring using slicing
+substring1 = my_string[0:5]  # Starting from index 0 (inclusive) to index 5 (exclusive)
+substring2 = my_string[7:]   # Starting from index 7 (inclusive) to the end of the string
+substring3 = my_string[:5]   # Starting from the beginning to index 5 (exclusive)
+substring4 = my_string[::2]  # Starting from the beginning to the end, with a step of 2
+
+# Print the results
+print("Original String:", my_string)
+print("Substring 1:", substring1)  # Output: "Hello"
+print("Substring 2:", substring2)  # Output: "World!"
+print("Substring 3:", substring3)  # Output: "Hello"
+print("Substring 4:", substring4)  # Output: "Hlo ol!"
+
