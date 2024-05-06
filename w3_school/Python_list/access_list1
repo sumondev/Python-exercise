@@ -34,7 +34,11 @@
 
  #coditionaly by range 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"] 
-for i in range(2,len(thislist),1):
-    print(i,thislist[i])
+# for i in range(2,len(thislist),1):
+#     print(i,thislist[i])
 
+  #even number array list item print.
     
+
+for i in range(2,len(thislist),2):
+    print("index Number=",i,",Value=",thislist[i])

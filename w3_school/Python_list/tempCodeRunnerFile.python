@@ -1,8 +1,0 @@
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-# for i in range(len(thislist)):
-#           print(i,thislist[i])
-
-#  # we can aslo get it by unsing enumerate().
-# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-# for index, item in enumerate(thislist):
-#     print(index, item)
