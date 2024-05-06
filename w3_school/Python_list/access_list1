@@ -1,17 +1,40 @@
-#Python - Access List Items
-thislist = ["apple", "banana", "cherry"]
-print(thislist[1])
-thislist = ["apple", "banana", "cherry"]
-print(thislist[-1])
+# #Python - Access List Items
+# thislist = ["apple", "banana", "cherry"]
+# print(thislist[1])
+# thislist = ["apple", "banana", "cherry"]
+# print(thislist[-1])
 
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-print(thislist[2:5])
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-print(thislist[:4])
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-print(thislist[2:])
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-print(thislist[-4:-1])
-thislist = ["apple", "banana", "cherry"]
-if "apple" in thislist:
-  print("Yes, 'apple' is in the fruits list")
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[2:5])
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[:4])
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[2:])
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[-4:-1])
+# thislist = ["apple", "banana", "cherry"]
+# if "apple" in thislist:
+#   print("Yes, 'apple' is in the fruits list")
+
+
+# #print only values using for loop.
+#   thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+#   for i in thislist:
+#     print(i)
+
+# print values and aslo index no.
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# for i in range(len(thislist)):
+#           print(i,thislist[i])
+
+#  # we can aslo get it by unsing enumerate().
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# for index, item in enumerate(thislist):
+#     print(index, item)
+
+ #coditionaly by range 
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"] 
+for i in range(2,len(thislist),1):
+    print(i,thislist[i])
+
+    
