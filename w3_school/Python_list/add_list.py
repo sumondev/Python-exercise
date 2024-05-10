@@ -7,4 +7,5 @@ print(f_list)
 #To insert a list item at a specified index, use the insert() method.
 f_list=["Apple","coconut"]
 f_list.insert(1,"Mangoes")
-
+f_list.insert(2,"Coconut")
+print(f_list)
