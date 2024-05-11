@@ -19,7 +19,6 @@ print(thislist)
 
 
 #Customize sort function by using keyword argument key = function, the function will return a number that will be used to sort the list. (the lower number 1st)
-
 #Example1. Sort the list based on how close the  number is close to 50.
 
 def myfunc(n):
@@ -28,3 +27,16 @@ def myfunc(n):
 thislist = [40,50,90,10,500,200]
 thislist.sort(key = myfunc)
 print(thislist)
+
+
+#case sensitive sorting give unexpected result
+#That why we use str.lower or upper to fix tgis problem.
+thislist = ["apple", "Banana",  "Mango","cherry", "kiwi"]
+thislist.sort(key=str.lower)
+print(thislist)
+
+
+thislist = ["apple", "banana", "cherry", "mango", "kiwi"]
+thislist.reverse()
+print(thislist)
+
