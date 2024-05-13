@@ -5,3 +5,7 @@ print(thistuple)
 #Allow Duplicates
 thistuple = ("apple", "banana", "cherry", "apple", "cherry")
 print(thistuple)
+
+#length of tuples
+thistuple = ("apple", "banana", "cherry")
+print(len(thistuple))
