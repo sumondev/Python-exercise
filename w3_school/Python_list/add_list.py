@@ -7,6 +7,10 @@ print(f_list)
 #To insert a list item at a specified index, use the insert() method.
 f_list=["Apple","coconut"]
 f_list.insert(1,"Mangoes")
+
+f_list.insert(2,"Coconut")
+print(f_list)
+=======
 print(f_list)
 
 
@@ -22,4 +26,5 @@ f_list1 = ["mangoes","Banana","lichi"]
 f_touple1 = ("Guava","Lemon")
 f_list1.extend(f_touple1)
 print(f_list1)
+
 
