@@ -1,0 +1,28 @@
+Lists:
+Lists are ordered collections of items.
+They are mutable, meaning you can add, remove, or change elements after the list is created.
+Lists are represented by square brackets [ ].
+Example: my_list = [1, 2, 3, 4, 5]
+
+Tuples:
+Tuples are ordered collections of items, similar to lists.
+However, tuples are immutable, meaning once they are created, their elements cannot be changed.
+Tuples are represented by parentheses ( ).
+Example: my_tuple = (1, 2, 3, 4, 5)
+
+Sets:
+Sets are unordered collections of unique elements.
+They do not allow duplicate elements.
+Sets are mutable, meaning you can add or remove elements after the set is created.
+Sets are represented by curly braces { }.
+Example: my_set = {1, 2, 3, 4, 5}
+
+Dictionaries:
+Dictionaries are unordered collections of key-value pairs.
+Each element in a dictionary is accessed by its key rather than by its position.
+Keys must be unique, but values can be duplicated.
+Dictionaries are mutable.
+Dictionaries are represented by curly braces { }, with key-value pairs separated by a colon :.
+Example: my_dict = {'name': 'John', 'age': 30, 'city': 'New York'}
+
+In summary, lists and tuples are ordered collections, sets are unordered collections of unique elements, and dictionaries are collections of key-value pairs. Lists and dictionaries are mutable, while tuples and sets are immutable.
