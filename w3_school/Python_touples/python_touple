@@ -9,3 +9,14 @@ print(thistuple)
 #length of tuples
 thistuple = ("apple", "banana", "cherry")
 print(len(thistuple))
+
+#Create Tuple With One Item. To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
+
+
+
+thistuple = ("apple",)
+print(type(thistuple))
+
+#NOT a tuple
+thistuple = ("apple")
+print(type(thistuple))

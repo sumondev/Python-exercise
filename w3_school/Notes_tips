@@ -26,3 +26,12 @@ Dictionaries are represented by curly braces { }, with key-value pairs separated
 Example: my_dict = {'name': 'John', 'age': 30, 'city': 'New York'}
 
 In summary, lists and tuples are ordered collections, sets are unordered collections of unique elements, and dictionaries are collections of key-value pairs. Lists and dictionaries are mutable, while tuples and sets are immutable.
+
+#########################################################
+Python Collections (Arrays)
+There are four collection data types in the Python programming language:
+
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary is a collection which is ordered** and changeable. No duplicate members.
