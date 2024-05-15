@@ -10,9 +10,6 @@ f_list.insert(1,"Mangoes")
 
 f_list.insert(2,"Coconut")
 print(f_list)
-=======
-print(f_list)
-
 
 #To append elements from another list to the current list, use the extend() method.
 f_list1 = ["mangoes","Banana","lichi"]
