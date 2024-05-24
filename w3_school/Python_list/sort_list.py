@@ -36,7 +36,7 @@ thislist.sort(key=str.lower)
 print(thislist)
 
 
-thislist = ["apple", "banana", "cherry", "mango", "kiwi"]
+thislist = ["apple", "banana", "cherry", "mango", "kiwi","orange"]
 thislist.reverse()
 print(thislist)
 
