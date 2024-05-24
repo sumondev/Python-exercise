@@ -22,5 +22,5 @@ print("\n")
 
 
 print("Looping Using List Comprehension \nA short hand for loop that will print all items in a list:")
-thislist = ["apple", "banana", "cherry","Banana"]
+thislist = ["apple", "banana", "cherry","Banana","pineapple"]
 [print(x) for x in thislist]
