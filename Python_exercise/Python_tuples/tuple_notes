@@ -1,0 +1,3 @@
+#IMP: Tuples are unchangeable, meaning that you cannot change, add, or remove items once the tuple is created.
+
+#But there is a workaround. You can convert the tuple into a list, change the list, and convert the list back into a tuple.
