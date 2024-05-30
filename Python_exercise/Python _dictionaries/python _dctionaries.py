@@ -20,3 +20,4 @@ thisdict = {
   "year": 2020
 }
 print(thisdict)
+print (len(thisdict))
