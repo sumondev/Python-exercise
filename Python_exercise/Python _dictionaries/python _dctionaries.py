@@ -21,3 +21,9 @@ thisdict = {
 }
 print(thisdict)
 print (len(thisdict))
+print(type(thisdict))
+
+
+#Using the dict() method to make a dictionary:
+thisdict = dict(name = "John", age = 36, country = "Norway")
+print(thisdict)
