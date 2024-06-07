@@ -32,3 +32,6 @@ else:
 
   #One line if statement:
   if a > b: print("a is greater than b")
+
+  #Short Hand If
+  if a > b: print("a is greater than b")
