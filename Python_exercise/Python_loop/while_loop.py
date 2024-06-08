@@ -18,5 +18,18 @@ i = 1
 while i < 6:
   print(i)
   if i==4:
-        break
+    break
   i += 1
+  #break terminates all condition
+
+#Continue
+print("continue")
+i=0
+while i<5:
+  i+=1
+  if i==4:
+    continue
+  print(i)
+
+#continue can skip......
+
