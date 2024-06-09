@@ -23,3 +23,11 @@ for x in fruits:
   if x == "banana":
     break
   print(x) 
+
+print("continue statement in for loop") 
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+  #here banana is skiped 
