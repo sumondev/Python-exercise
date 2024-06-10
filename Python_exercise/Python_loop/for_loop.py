@@ -34,3 +34,7 @@ for x in fruits:
 print("Range loop")
 for x in range(6):
   print(x) 
+
+print("using start perameter")
+for x in range(2, 6):
+  print(x)  
