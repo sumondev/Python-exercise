@@ -31,3 +31,6 @@ for x in fruits:
     continue
   print(x)
   #here banana is skiped 
+print("Range loop")
+for x in range(6):
+  print(x) 
