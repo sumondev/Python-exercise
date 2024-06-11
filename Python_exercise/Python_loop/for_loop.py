@@ -58,7 +58,7 @@ else:
 
 print("Nested loop")
 adj = ["red", "big", "tasty"]
-fruits = ["apple", "banana", "cherry"]
+fruits = ["apple", "banana", "chery"]
 
 for x in adj:
   for y in fruits:
